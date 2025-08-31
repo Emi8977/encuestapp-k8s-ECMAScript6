@@ -1,5 +1,5 @@
 # overlays/prod/kustomization.yaml
-namespace: ambiente-staging-encuestapp-mern-ECMAScript6
+namespace: ambiente-stg-encuestapp-mern-ECMAScript6
 resources:
   - ../../base
   #- hpa.yaml
