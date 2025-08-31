@@ -1,0 +1,12 @@
+# overlays/prod/kustomization.yaml
+namespace: ambiente-staging-encuestapp
+resources:
+  - ../../base
+  #- hpa.yaml
+  #- networkpolicy.yaml
+  #- pdb.yaml
+
+patchesStrategicMerge:
+  - patch-deployment.yaml
+  - patch-secret.yaml
+

@@ -1,0 +1,9 @@
+# overlays/dev/kustomization.yaml
+namespace: ambiente-dev-encuestapp
+
+resources:
+  - ../../base
+
+patchesStrategicMerge:
+  - patch-deployment.yaml
+  - patch-secret.yaml

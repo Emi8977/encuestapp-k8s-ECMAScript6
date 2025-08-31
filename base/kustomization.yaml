@@ -1,0 +1,5 @@
+# infra/base/kustomization.yaml
+resources:
+  - deployment.yaml
+  - service.yaml
+  - harbor-pull-secret.yaml
