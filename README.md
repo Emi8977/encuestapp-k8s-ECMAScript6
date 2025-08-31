@@ -8,7 +8,7 @@ Proyecto CI/CD Otros repositorios relacionados:
 
 Documentación del Repositorio Kustomize (Pipeline CI)
 
-1. Estructura del Repositorio encuestapp-k8s-infra
+1. Estructura del Repositorio encuestapp-k8s
 
 Este repositorio almacena los manifiestos de Kubernetes estructurados mediante Kustomize:
 
