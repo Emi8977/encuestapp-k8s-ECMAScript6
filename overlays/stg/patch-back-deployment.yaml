@@ -7,5 +7,6 @@ spec:
     spec:
       containers:
         - name: encuestapp
-          image: 192.168.49.1/encuestapp-prueba/encuestapp:stg-86f2d15
+          image: emi8977/encuestapp-mern-ECMAScript6:REPLACEME
+
 
