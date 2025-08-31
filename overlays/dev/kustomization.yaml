@@ -5,5 +5,5 @@ resources:
   - ../../base
 
 patchesStrategicMerge:
-  - patch-deployment.yaml
-  - patch-secret.yaml
+  - patch-back-deployment.yaml
+  - patch-front-deployment.yaml
