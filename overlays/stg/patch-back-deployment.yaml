@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: encuestapp
+  name: backend-deployment
 spec:
   template:
     spec:
       containers:
-        - name: encuestapp
-          image: emi8977/encuestapp-mern-ECMAScript6:REPLACEME
+        - name: backend
+          image: emi8977/backend-encuestapp-mern-ecmascript6:REPLACEME
 
 
