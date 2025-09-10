@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: encuestapp
+  name: frontend-deployment
 spec:
   template:
     spec:
       containers:
-        - name: encuestapp
+        - name: frontend
           image: emi8977/frontend-encuestapp-mern-ecmascript6:dev-83c01ee
