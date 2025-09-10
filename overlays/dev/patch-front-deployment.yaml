@@ -7,4 +7,4 @@ spec:
     spec:
       containers:
         - name: encuestapp
-          image: emi8977/frontend-encuestapp-mern-ecmascript6:REPLACEME
+          image: emi8977/frontend-encuestapp-mern-ecmascript6:dev-83c01ee
