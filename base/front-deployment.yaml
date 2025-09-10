@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: emi8977/encuestapp-mern-ECMAScript6:REPLACEME
+          image: emi8977/frontend-encuestapp-mern-ECMAScript6:REPLACEME
           ports:
             - containerPort: 80
